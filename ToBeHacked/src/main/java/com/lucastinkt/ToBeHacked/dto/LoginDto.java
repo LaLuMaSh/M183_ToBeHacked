@@ -1,4 +1,4 @@
-package com.lucastinkt.ToBeHacked;
+package com.lucastinkt.ToBeHacked.dto;
 
 public class LoginDto {
     String username;

@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -23,16 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="324c5469-fd40-4fa5-b452-4acb101a4519" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch/lalumash/core/LoginResponseDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lucastinkt/ToBeHacked/ToBeHackedApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch/lalumash/ToBeHacked/ToBeHackedApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lucastinkt/ToBeHacked/UserNotFoundOrWrongPasswordException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch/lalumash/ToBeHacked/UserNotFoundOrWrongPasswordException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lucastinkt/ToBeHacked/beans/Beans.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch/lalumash/ToBeHacked/beans/Beans.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lucastinkt/ToBeHacked/controllers/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch/lalumash/ToBeHacked/controllers/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lucastinkt/ToBeHacked/dto/LoginDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch/lalumash/ToBeHacked/dto/LoginDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lucastinkt/ToBeHacked/manager/LoginManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch/lalumash/ToBeHacked/manager/LoginManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lucastinkt/ToBeHacked/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch/lalumash/ToBeHacked/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/lucastinkt/ToBeHacked/ToBeHackedApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ch/lalumash/ToBeHacked/ToBeHackedApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ch/lalumash/ToBeHacked/controllers/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch/lalumash/ToBeHacked/controllers/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ch/lalumash/ToBeHacked/dto/LoginDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ch/lalumash/ToBeHacked/manager/LoginManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch/lalumash/ToBeHacked/manager/LoginManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,18 +45,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHome" value="C:\Users\LGU\.m2\wrapper\dists\apache-maven-3.6.3-bin\1iopthnavndlasol9gbrbg6bf2\apache-maven-3.6.3" />
-      </MavenGeneralSettings>
-    </option>
-  </component>
   <component name="ProjectId" id="1gGUcntL46cXMZ63j8i5Tk8kF5E" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="abbreviatePackageNames" value="true" />
-    <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -72,10 +57,11 @@
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../M183_Hacker" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/ch/lalumash/hacker" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -85,25 +71,20 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="ch.lalumash" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\projects\tbz\M183_ToBeHacked\ToBeHacked\src\main\java\ch\lalumash\hacker" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.lucastinkt.ToBeHacked.model" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.ToBeHackedApplication (1)">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager">
     <configuration name="ToBeHackedApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="ToBeHacked" />
       <extension name="coverage">
@@ -117,20 +98,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ToBeHackedApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="ToBeHacked" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lucastinkt.ToBeHacked.ToBeHackedApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.ToBeHackedApplication (1)" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="324c5469-fd40-4fa5-b452-4acb101a4519" name="Default Changelist" comment="" />
@@ -144,11 +121,13 @@
       <workItem from="1598343265668" duration="612000" />
       <workItem from="1598344031815" duration="32000" />
       <workItem from="1598344718593" duration="3741000" />
+      <workItem from="1598890937046" duration="1497000" />
+      <workItem from="1598904575575" duration="3567000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -163,85 +142,151 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="2334" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598905623448">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2334" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.0.1920.1040/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1598905623448" />
     <state x="612" y="161" key="#com.intellij.ide.util.MemberChooser" timestamp="1598337990768">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="612" y="161" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1598337990768" />
     <state x="765" y="203" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1597744035403" />
+    <state x="556" y="444" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1598904776060">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="556" y="444" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/-1920.0.1920.1040/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1598904776060" />
+    <state x="756" y="401" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1598904777258">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="756" y="401" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/-1920.0.1920.1040/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1598904777258" />
+    <state width="419" height="466" key="DebuggerActiveHint" timestamp="1598905699300">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="419" height="466" key="DebuggerActiveHint/-1920.0.1920.1040/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1598905699300" />
     <state x="550" y="168" key="FileChooserDialogImpl" timestamp="1598339756841">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="550" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1598339756841" />
-    <state width="1493" height="181" key="GridCell.Tab.0.bottom" timestamp="1598353367759">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1877" height="393" key="GridCell.Tab.0.bottom" timestamp="1598908473691">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="199" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1598905438672" />
+    <state width="1877" height="393" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1598908473691" />
     <state width="1493" height="181" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1598353367759" />
-    <state width="1493" height="181" key="GridCell.Tab.0.center" timestamp="1598353367759">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1877" height="393" key="GridCell.Tab.0.center" timestamp="1598908473691">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="199" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1598905438672" />
+    <state width="1877" height="393" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1598908473691" />
     <state width="1493" height="181" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1598353367759" />
-    <state width="1493" height="181" key="GridCell.Tab.0.left" timestamp="1598353367759">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1877" height="393" key="GridCell.Tab.0.left" timestamp="1598908473690">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="199" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1598905438672" />
+    <state width="1877" height="393" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1598908473690" />
     <state width="1493" height="181" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1598353367759" />
-    <state width="1493" height="181" key="GridCell.Tab.0.right" timestamp="1598353367759">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1877" height="393" key="GridCell.Tab.0.right" timestamp="1598908473691">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="199" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1598905438672" />
+    <state width="1877" height="393" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1598908473691" />
     <state width="1493" height="181" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1598353367759" />
-    <state width="1493" height="181" key="GridCell.Tab.1.bottom" timestamp="1598353367759">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1877" height="393" key="GridCell.Tab.1.bottom" timestamp="1598908473691">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="199" key="GridCell.Tab.1.bottom/-1920.0.1920.1040/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1598905438672" />
+    <state width="1877" height="393" key="GridCell.Tab.1.bottom/-1920.0.1920.1040/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1598908473691" />
     <state width="1493" height="181" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1598353367759" />
-    <state width="1493" height="181" key="GridCell.Tab.1.center" timestamp="1598353367759">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1877" height="393" key="GridCell.Tab.1.center" timestamp="1598908473691">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="199" key="GridCell.Tab.1.center/-1920.0.1920.1040/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1598905438672" />
+    <state width="1877" height="393" key="GridCell.Tab.1.center/-1920.0.1920.1040/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1598908473691" />
     <state width="1493" height="181" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1598353367759" />
-    <state width="1493" height="181" key="GridCell.Tab.1.left" timestamp="1598353367759">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1877" height="393" key="GridCell.Tab.1.left" timestamp="1598908473691">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="199" key="GridCell.Tab.1.left/-1920.0.1920.1040/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1598905438672" />
+    <state width="1877" height="393" key="GridCell.Tab.1.left/-1920.0.1920.1040/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1598908473691" />
     <state width="1493" height="181" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1598353367759" />
-    <state width="1493" height="181" key="GridCell.Tab.1.right" timestamp="1598353367759">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1877" height="393" key="GridCell.Tab.1.right" timestamp="1598908473691">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="199" key="GridCell.Tab.1.right/-1920.0.1920.1040/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1598905438672" />
+    <state width="1877" height="393" key="GridCell.Tab.1.right/-1920.0.1920.1040/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1598908473691" />
     <state width="1493" height="181" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1598353367759" />
-    <state width="1493" height="425" key="GridCell.Tab.2.bottom" timestamp="1598353366196">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1877" height="518" key="GridCell.Tab.2.bottom" timestamp="1598905891353">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="518" key="GridCell.Tab.2.bottom/-1920.0.1920.1040/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1598905891353" />
     <state width="1493" height="425" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1598353366196" />
-    <state width="1493" height="425" key="GridCell.Tab.2.center" timestamp="1598353366196">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1877" height="518" key="GridCell.Tab.2.center" timestamp="1598905891352">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="518" key="GridCell.Tab.2.center/-1920.0.1920.1040/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1598905891352" />
     <state width="1493" height="425" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1598353366196" />
-    <state width="1493" height="425" key="GridCell.Tab.2.left" timestamp="1598353366195">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1877" height="518" key="GridCell.Tab.2.left" timestamp="1598905891352">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="518" key="GridCell.Tab.2.left/-1920.0.1920.1040/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1598905891352" />
     <state width="1493" height="425" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1598353366195" />
-    <state width="1493" height="425" key="GridCell.Tab.2.right" timestamp="1598353366196">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1877" height="518" key="GridCell.Tab.2.right" timestamp="1598905891352">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="518" key="GridCell.Tab.2.right/-1920.0.1920.1040/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1598905891352" />
     <state width="1493" height="425" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1598353366196" />
+    <state width="1877" height="518" key="GridCell.Tab.3.bottom" timestamp="1598905891353">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="518" key="GridCell.Tab.3.bottom/-1920.0.1920.1040/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1598905891353" />
+    <state width="1877" height="518" key="GridCell.Tab.3.center" timestamp="1598905891353">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="518" key="GridCell.Tab.3.center/-1920.0.1920.1040/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1598905891353" />
+    <state width="1877" height="518" key="GridCell.Tab.3.left" timestamp="1598905891353">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="518" key="GridCell.Tab.3.left/-1920.0.1920.1040/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1598905891353" />
+    <state width="1877" height="518" key="GridCell.Tab.3.right" timestamp="1598905891353">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="518" key="GridCell.Tab.3.right/-1920.0.1920.1040/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1598905891353" />
+    <state width="1877" height="518" key="GridCell.Tab.4.bottom" timestamp="1598905891353">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="518" key="GridCell.Tab.4.bottom/-1920.0.1920.1040/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1598905891353" />
+    <state width="1877" height="518" key="GridCell.Tab.4.center" timestamp="1598905891353">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="518" key="GridCell.Tab.4.center/-1920.0.1920.1040/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1598905891353" />
+    <state width="1877" height="518" key="GridCell.Tab.4.left" timestamp="1598905891353">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="518" key="GridCell.Tab.4.left/-1920.0.1920.1040/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1598905891353" />
+    <state width="1877" height="518" key="GridCell.Tab.4.right" timestamp="1598905891353">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="518" key="GridCell.Tab.4.right/-1920.0.1920.1040/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1598905891353" />
     <state x="490" y="174" key="Maven.ArtifactSearchDialog" timestamp="1597743700289">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="490" y="174" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597743700289" />
-    <state x="279" y="58" key="SettingsEditor" timestamp="1598338577114">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="349" y="73" width="1304" height="710" key="SettingsEditor" timestamp="1598890976406">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="349" y="73" width="1304" height="710" key="SettingsEditor/-1920.0.1920.1040/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1598890976406" />
     <state x="279" y="58" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1598338577114" />
     <state x="478" y="145" width="581" height="534" key="find.popup" timestamp="1598339891534">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="478" y="145" width="581" height="534" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1598339891534" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ch/lalumash/ToBeHacked/manager/LoginManager.java</url>
-          <line>29</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <state x="551" y="181" key="new project wizard" timestamp="1598904898727">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="551" y="181" key="new project wizard/-1920.0.1920.1040/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1598904898727" />
+    <state x="143" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1598904918460">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="143" y="225" width="672" height="678" key="search.everywhere.popup/-1920.0.1920.1040/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1598904918460" />
   </component>
 </project>

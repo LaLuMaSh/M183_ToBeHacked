@@ -1,4 +1,4 @@
-package com.lucastinkt.ToBeHacked.model;
+package ch.lalumash.ToBeHacked.model;
 
 import java.io.Serializable;
 

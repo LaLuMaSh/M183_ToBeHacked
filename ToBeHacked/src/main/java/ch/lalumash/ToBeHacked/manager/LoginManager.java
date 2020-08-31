@@ -1,10 +1,11 @@
-package com.lucastinkt.ToBeHacked.manager;
+package ch.lalumash.ToBeHacked.manager;
 
-import com.lucastinkt.ToBeHacked.dto.LoginDto;
-import com.lucastinkt.ToBeHacked.UserNotFoundOrWrongPasswordException;
-import com.lucastinkt.ToBeHacked.model.User;
+import ch.lalumash.ToBeHacked.model.User;
+import ch.lalumash.ToBeHacked.dto.LoginDto;
+import ch.lalumash.ToBeHacked.UserNotFoundOrWrongPasswordException;
 
 import java.util.HashMap;
+import java.util.List;
 import java.util.UUID;
 
 public class LoginManager {
@@ -13,12 +14,22 @@ public class LoginManager {
 
     public LoginManager() {
         this.users = new HashMap<>();
-        this.users.put("lgu", new User("lgu", "abc"));
-        this.users.put("a", new User("lgu", "cool"));
-        this.users.put("c", new User("lgu", "lucguett"));
-        this.users.put("d", new User("lgu", "guettlgu"));
-        this.users.put("e", new User("lgu", "random"));
+        //abcdefg
+        this.users.put("lgu", new User("lgu", "132"));
+        this.users.put("a", new User("lgu", "64212"));
+        this.users.put("c", new User("lgu", "1111"));
+        this.users.put("d", new User("lgu", "98764"));
+        this.users.put("e", new User("lgu", "22221"));
         this.tokens = new HashMap<>();
+    }
+
+
+    public String getToken(List<LoginDto> loginDtoList) throws UserNotFoundOrWrongPasswordException {
+        for (LoginDto loginDto : loginDtoList) {
+            String token = getToken(loginDto);
+            return token;
+        }
+        return null;
     }
 
     public String getToken(LoginDto loginDto) throws UserNotFoundOrWrongPasswordException {

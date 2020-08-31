@@ -1,4 +1,4 @@
-package com.lucastinkt.ToBeHacked;
+package ch.lalumash.ToBeHacked;
 
 public class UserNotFoundOrWrongPasswordException extends Exception {
 

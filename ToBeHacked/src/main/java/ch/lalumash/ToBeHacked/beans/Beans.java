@@ -1,7 +1,7 @@
-package com.lucastinkt.ToBeHacked.beans;
+package ch.lalumash.ToBeHacked.beans;
 
 
-import com.lucastinkt.ToBeHacked.manager.LoginManager;
+import ch.lalumash.ToBeHacked.manager.LoginManager;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Scope;

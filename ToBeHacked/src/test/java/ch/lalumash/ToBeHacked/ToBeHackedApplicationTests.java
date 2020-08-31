@@ -1,4 +1,4 @@
-package com.lucastinkt.ToBeHacked;
+package ch.lalumash.ToBeHacked;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
